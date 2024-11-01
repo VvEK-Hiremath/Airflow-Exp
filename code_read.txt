@@ -1,0 +1,7 @@
+This code does the following:
+
+The handler method checks the event payload to see if the request has a URL path
+If the path matches one of customers, orders, or reviews, it calls a method to create sample data
+The create_customers and create_orders methods generate random dates from the current month and details for orders and customers such as the customers first and last name
+The create_reviews method generates a review using a one line each from three sets of sample review sentences
+The data is returned using json.dumps which converts the data to the JavaScript Object Notation (JSON) format
